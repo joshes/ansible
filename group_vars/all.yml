@@ -18,7 +18,7 @@ slurm_partitions:
 filesystem_target_address: fileserver
 filesystem_mount_point: /shared
 
-ansible_pull_repo: https://github.com/clusterinthecloud/ansible.git
+ansible_pull_repo: https://github.com/joshes/ansible.git
 
 software_install_dir: /mnt/{{ filesystem_mount_point }}
 
